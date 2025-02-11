@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    font-family: "roboto",sans-serif;
+}
+
+
+.upper_line{
+    position:fixed;
+    top:0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    column-gap: 5px;
+
+}
+.upper_line a{
+    text-decoration: underline;
+}
+
+
+.nav{
+    margin-top: 46.4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    color: white;
+    font-weight: bold;  
+}
+.logo{
+    margin-top:-13px;
+    height: 3.5rem;
+}
+.nav ul{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.nav li{
+    padding-right: 2rem;
+}
+.nav i{
+    padding-right: 1.5rem;
+    
+}
+
+.logo:hover, .nav li , .nav .icons i{
+    cursor: pointer;
+}
+
+
+
+
+
+/* .page_one{
+    position:absolute;
+    top:30%;
+    left:45%;
+} */
+
+
+.first_page{
+    background-image: url(./Assets/Bg1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:93.5vh;
+}
+.page_one p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 56px;
+    font-weight: 500;
+    /* line-height: 56px; */
+}
+.page_one .action{
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    
+}
+
+.page_one .action button{
+    margin:1rem;
+    width: 16rem;
+    height: 2.7rem;
+    border-radius: .3rem;
+    border: none;
+    font-family: "roboto";
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+/*Page Two*/
+
+.page_two{
+    color: white;
+    background-image: url(./Assets/Bg2.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+
+h3{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    font-weight: 500;
+}
+.bold{
+    display: flex;
+    justify-content: center;
+    line-height: 44px;
+    font-size: 34px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness:1.1px ;
+    cursor: pointer;
+    text-underline-offset: 9px;
+}
+.others{
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: .5rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+    margin-left: 1rem;
+
+}
+button{
+    
+    width:18rem;
+}
+.page_three{
+    color: white;
+    background-image: url(./Assets/Bg3.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+.page_four{
+    color: white;
+    background-image: url(./Assets/Bg4.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+.page_five{
+    color: white;
+    background-image: url(./Assets/Bg5.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+.page_six{
+    color: white;
+    background-image: url(./Assets/Bg6.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+.page_seven{
+    color: white;
+    background-image: url(./Assets/Bg7.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+.page_eight{
+    color: white;
+    background-image: url(./Assets/Bg8.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+.page_eight .others{
+    font-weight: 500;
+    color:rgb(255,255,255);
+    font-size: 34px;
+    line-height: 44px;
+    margin-top: 4px;
+    padding-bottom: 4rem;
+}
+
+.page_nine{
+    color: white;
+    background-image: url(./Assets/Bg9.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+
+}
+.page_ten{
+    color: white;
+    background-image: url(./Assets/Bg10.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+.page_ten .btn{
+    margin-top: 14rem;
+}
+
+
+.video{
+    overflow: hidden;
+    height: 100vh;
+
+    
+}
+.video video{
+    width:100vw;
+    z-index: -10;
+}
+
+
+
+.footer{
+
+    margin-left: 28vw;
+    height: 80vh;
+    width: 45vw;
+    justify-content: center;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #929498;
+    overflow: hidden;
+
+}
+.one-p, .two-p ,.three-p, .four-p ,.five-p{
+    margin-bottom:30px;
+}
+
+.bottom ul{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.bottom li{
+    padding: .5rem;
+    font-weight: 500;
+    color:#929498;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sticky_nav img{
+    margin-right: 6px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.sticky_nav{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: #f9f9f9;
+    z-index: 1000;
+    height: 52px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color:#232632;
+    font-size: 17px;
+    line-height: 20px;
+    box-shadow: 0px -8px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
